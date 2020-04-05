@@ -10,35 +10,30 @@
 
     <title>Modern Business - Start Bootstrap Template</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body>
     <header id="header" class="header">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav class="navbar fixed-top navbar-expand-lg fixed-top header__nav">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+          <a class="navbar-brand nav__brand" href="index.html">Start Bootstrap</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+            <ul class="navbar-nav ml-auto nav__menu">
+              <li class="nav-item nav__menu-item">
+                <a class="nav-link nav__menu-item-link" href="#">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+              <li class="nav-item nav__menu-item">
+                <a class="nav-link nav__menu-item-link" href="#">Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+              <li class="nav-item nav__menu-item">
+                <a class="nav-link nav__menu-item-link" href="#">Contact</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item dropdown nav__menu-item">
+                <a class="nav-link nav__menu-item-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Portfolio
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
@@ -264,6 +259,74 @@
           <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
         </div>
       </div>
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<section class="card-team padding__lg">
+  <div class="container">
+    <div>
+        <h2 class="card-team__main-title">Our Team</h2>
+    </div>
+    <ul class="row card-team__item">
+      <li class="col-12 col-md-6 col-lg-3 card-team__item-list">
+          <div class="card-team__block" style="height: 349px;">
+            <figure class="card-team__img-capa">
+              <img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive card-team__img" alt="">
+            </figure>
+            <h3 class="card-team__subtitle"><a href="#" class="card-team__subtitle-link">Web coder skull</a></h3>
+            <p class="card-team__desc">Freelance Web Developer</p>
+            <ul class="card-team__follow d-flex justify-content-center py-0 px-0">
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3 card-team__item-list">
+          <div class="card-team__block" style="height: 349px;">
+            <figure class="card-team__img-capa">
+              <img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive card-team__img" alt="">
+            </figure>
+            <h3 class="card-team__subtitle"><a href="#" class="card-team__subtitle-link">Kappua </a></h3>
+            <p class="card-team__desc">Freelance Web Developer</p>
+            <ul class="card-team__follow d-flex justify-content-center py-0 px-0">
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3 card-team__item-list">
+          <div class="card-team__block" style="height: 349px;">
+            <figure class="card-team__img-capa">
+              <img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive card-team__img" alt="">
+            </figure>
+            <h3 class="card-team__subtitle"><a href="#" class="card-team__subtitle-link">Manish </a></h3>
+            <p class="card-team__desc">Freelance Web Developer</p>
+            <ul class="card-team__follow d-flex justify-content-center py-0 px-0">
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+       </li>
+      <li class="col-12 col-md-6 col-lg-3 card-team__item-list">
+          <div class="card-team__block" style="height: 349px;">
+            <figure class="card-team__img-capa">
+              <img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive card-team__img" alt="">
+            </figure>
+            <h3 class="card-team__subtitle"><a href="#" class="card-team__subtitle-link">Atul </a></h3>
+            <p class="card-team__desc">Freelance Web Developer</p>
+            <ul class="card-team__follow d-flex justify-content-center py-0 px-0">
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="card-team__follow-list"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
     </div>
     <!-- /.container -->
